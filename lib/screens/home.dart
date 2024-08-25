@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
         
         body: Center(
           child: Column(
@@ -38,7 +38,7 @@ class Home extends StatelessWidget {
               ),
               CustomeRow(
                 
-                 const Color.fromARGB(255, 238, 143, 143),
+                 Color.fromARGB(255, 238, 143, 143),
                 "لا حول و لا قوة إلا بالله"
               ),
 
